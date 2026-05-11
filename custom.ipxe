@@ -5,7 +5,7 @@
 
 :start
 echo Hello world!
-sleep 10
+sleep 3
 echo Chains into My Menu...
 chain https://baltas/mymenu.ipxe || goto start
 goto custom_exit
