@@ -7,7 +7,7 @@
 echo Hello world!
 sleep 3
 echo Chains into My Menu...
-chain https://baltas:8081/mymenu.ipxe || goto start
+chain https://audra/mymenu.ipxe || goto start
 goto custom_exit
 
 :custom_exit
