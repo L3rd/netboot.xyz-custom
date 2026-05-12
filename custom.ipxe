@@ -8,7 +8,8 @@
 #sleep 3
 echo Chains into My Menu...
 #chain http://audra/mymenu.ipxe || goto start
-chain http://audra/iPXE/boot.ipxe || goto start
+#chain http://audra/iPXE/boot.ipxe || goto start
+chain http://audra/iPXE/acronis/acronis.ipxe || goto start
 goto custom_exit
 
 :custom_exit
