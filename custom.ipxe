@@ -4,8 +4,8 @@
 ###
 
 :start
-echo Hello world!
-sleep 3
+#echo Hello world!
+#sleep 3
 echo Chains into My Menu...
 #chain http://audra/mymenu.ipxe || goto start
 chain http://audra/iPXE/boot.ipxe || goto start
